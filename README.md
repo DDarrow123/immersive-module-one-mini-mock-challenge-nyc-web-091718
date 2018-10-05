@@ -24,7 +24,7 @@ The point of a code challenge is **NOT** to:
 
 _Do not expect every module to have a mock version of the code challenge. We are providing an example for the first module only as a way to familiarize you with the feel and structure of our code challenges. We want to remove some of the stress leading up to the first code challenge so that the results can be more indicative of what you have learned and less about how you may handle 'exam stress'.  Generally, we are careful not to 'teach to the test' and while we will be able to indicate what are the main areas to focus on we will not provide an example version of the code challenge_
 
-The information below is what you might expect to see when taking a new code challenge. One point of note is that the code challenges _will not have tests_.  This is intentional. It is really important to practice writing and running code outside of the framework of the labs and tests. 
+The information below is what you might expect to see when taking a new code challenge. One point of note is that the code challenges _will not have tests_.  This is intentional. It is really important to practice writing and running code outside of the framework of the labs and tests.
 
 ## Topics
 
@@ -45,26 +45,25 @@ We've provided you with a console that you can use to test your code. To enter a
 ### `Book`
 Build the following methods on the Book class
 
-- `Book.all`
-should return all of the books
-- `Book#author`
-should return the author instance who wrote this book
-- `Book#title`
-should return the title of the book
-- `Book#word_count`
-should return the number of words in the book
+<!-- - `Book.all` - check
+should return all of the books -->
+<!-- - `Book#author` - check
+should return the author instance who wrote this book - this is just the instance variable (Book.author) -->
+<!-- - `Book#title` - check
+should return the title of the book  - this is just the instance variable -->
+<!-- - `Book#word_count` - check
+should return the number of words in the book - returning the instance variable that contains this book and it's word count -->
 
 ### `Author`
 Build the following methods on the Author class
 
-- `Author.all`
-should return all of the authors
-- `Author#books`
-should return all of the books an author has written
-- `Author#write_book`
-should take arguments of a title and word count and make a new Book instance associated with this author
-- `Author#total_words`
-should return the total number of words that author has written across all of their authored books.
-- `Author.most_words`
-should return the author instance who has written the most words
-
+<!-- - `Author.all` - check
+should return all of the authors -->
+<!-- - `Author#books` - check
+should return all of the books an author has written -->
+<!-- - `Author#write_book` - check
+should take arguments of a title and word count and make a new Book instance associated with this author -->
+<!-- - `Author#total_words` - check - go through MY books to get their word counts and then add up those word counts
+should return the total number of words that author has written across all of their authored books. -->
+<!-- - `Author.most_words`
+should return the author instance who has written the most words -->
